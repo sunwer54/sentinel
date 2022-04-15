@@ -11,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class ConsumerController {
+
     /*
       Spring提供了一个RestTemplate 相当于HttpClient的请求对象,可以用来从java中发送Http请求
       发送get请求 getForEntity();
