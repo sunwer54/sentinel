@@ -52,7 +52,6 @@ public class ConsumerController {
         return "ProviderService调用失败";
     }
 
-
     /**
      * 回退方法(提供服务降级后的托底数据);
      * @param data 参数名称要与rpcProvider方法中的参数名一致
