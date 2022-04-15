@@ -1,0 +1,10 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: sentinel-client  #给当前微服务设置名称
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8088  #所连接的sentinel服务器所在的服务器地址
+        port: 8719  #代表 sentinel 客户端和控制台通信的端口，默认为8719，如果这个端口已经被占用，那么 sentinel 会自动从 8719 开始依次+1 扫描，直到找到未被占用的端口。

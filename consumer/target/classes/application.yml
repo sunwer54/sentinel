@@ -1,0 +1,13 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: consumer-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8088
+        port: 8719
